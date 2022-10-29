@@ -100,3 +100,10 @@ form {
 .response-container span {
   font-weight: 400;
 }
+
+.response-container__posts-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  gap: 15px;
+}
